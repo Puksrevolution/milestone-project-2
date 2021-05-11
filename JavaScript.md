@@ -1,7 +1,7 @@
 Milestone Project 2 
 ======
 
-## JavaScript documentation ##
+## **JavaScript documentation** ##
 
 [Main README.md file](https://github.com/Puksrevolution/milestone-project-2/blob/master/README.md)
 
@@ -9,7 +9,7 @@ Milestone Project 2
 
 ---
 
-## Table of Contents ##
+# Table of contents
 
 - [Step One](#step-one)
   - [Ball and position](#ball-and-position)
@@ -122,3 +122,5 @@ Step Eight
 - Set a setTimeOut function so that the game starts a second after the pages loaded.
 
 [Screenshots of the steps](assets/jsDocu/8_modal)
+
+[Back to contents](#contents)

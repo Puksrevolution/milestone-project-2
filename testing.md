@@ -1,5 +1,7 @@
-Milestone Project 2 Testing Details
+Milestone Project 2
 ======
+
+## **Testing Details** ##
 
 [Main README.md file](https://github.com/Puksrevolution/milestone-project-2/blob/master/README.md)
 
@@ -7,7 +9,7 @@ Milestone Project 2 Testing Details
 
 ---
 
-## Table of Contents ##
+# Table of contents
 
 - [Automated Testing](#automated-testing)
   - [Validation Services](#validation-services)
@@ -143,3 +145,5 @@ Bugs
 ======
 
 ## **Bug fix** ##
+
+[Back to contents](#contents)

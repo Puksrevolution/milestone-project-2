@@ -42,6 +42,9 @@ Live Project
   * [Languages](#languages)
   * [Tools](#tools)
 
++ [JavaScript](#javascript)     
+  * [JavaScript Documentation](#javascript-documentation)  
+
 + [Testing](#testing)     
   * [Known Bugs](#known-bugs)      
 
@@ -79,6 +82,8 @@ It is easy to understand and simple to interact with feedback for the times,
 when you need to wait for something....
 It also trains a person's reaction time, dexterity and endurance.
 The layout of the game is an Hommage to the classic arcade games.
+
+[Back to contents](#contents)
 
 User Experience Design
 ======
@@ -123,6 +128,8 @@ User Experience Design
   - Solution:<br>
   A Modal appears when the user loos the game and it will show up a messag why the user loos and it shows the reached score of the user. 
 
+[Back to contents](#contents)
+
 Design
 ======
 
@@ -157,6 +164,8 @@ A simple and good recognisable Favicon, created with [paint.net](https://www.get
 
 <img src="assets/img/wireframes/wireframes.jpg">
 
+[Back to contents](#contents)
+
 Features
 ======
 
@@ -164,7 +173,6 @@ Features
 ​
 Responsive design on all devices with using css style code to give a simple, user friendly display.
 ​
-
 ### **Interactive Elements**​ ###
 
 - The **main features** of the site are:
@@ -194,6 +202,8 @@ Responsive design on all devices with using css style code to give a simple, use
   - A Leaderboard in classic arcade game style with a list of the top 10 people highscore, which played the game. 
     - The user get at the end the score and gets the possibility to add their name to the leaderboard. ​
 
+
+[Back to contents](#contents)
 
 Technologies
 ======
@@ -226,7 +236,15 @@ Technologies
 
 [Back to contents](#contents)
 
-​
+JavaScript
+======
+
+### **JavaScript Documentation** ###
+
+JavaScript documentation with  screenshots can be found in a separate [JavaScript.md](JavaScript.md).
+
+[Back to contents](#contents)
+
 Testing
 ======
 
@@ -234,6 +252,7 @@ Testing information can be found in a separate [testing.md](testing.md).
 
 ### **Known Bugs** ###
 
+[Back to contents](#contents)
 
 Deployment
 ======
@@ -293,6 +312,8 @@ gh repo clone Puksrevolution/milestone-project-2
     
 You can find all the steps to follow according your chosen method in this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on how to clone a reposistory.
 
+[Back to contents](#contents)
+
 Credits
 ======
 
@@ -318,3 +339,5 @@ This was then modified to fit the game design:
 - Jannis Seemann for the re-use of many ideas and code snippets.
 - Simon Vardy, Praveen and Michael Standen for their support and help.
 - Code Institute Course material.
+
+[Back to contents](#contents)
