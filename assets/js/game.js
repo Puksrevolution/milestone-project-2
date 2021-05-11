@@ -64,6 +64,7 @@ class Game {
         this.renderer = new Renderer(element);
         this.box = new Box();
         this.element = element;
+        this.isRunning = true;  // stops the position loop
         this.setup();
     }
 
@@ -74,16 +75,22 @@ class Game {
     }
 
     start() {
-        setInterval(() => {
+        let timer = setInterval(() => {
             this.box.runLoop();
             // contains the gamefield, top border
-            if (this.box.position < 0) {
+            if (this.box.position < 0) {     
+                this.isRunning = false;
+                clearInterval(timer)          
                 alert("The ball touched the top border");
             }
             if (this.box.position + 35 > this.element.clientHeight) {
+                this.isRunning = false;
+                clearInterval(timer)                
                 alert("The ball touched the bottom border");
             }
+            if (this.isRunning == true) {
             this.renderer.render(this.box.position);
+            }
         }, 100);
     }
 }
