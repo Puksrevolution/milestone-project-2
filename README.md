@@ -299,7 +299,8 @@ Credits
 The JavaScript ball game was created by following a tutorial from [Jannis Seemann](https://www.udemy.com/courses/search/?src=ukw&q=Jannis+Seemann) 
 on Udemy with the tutors permission to use the code for other Projects.
 - Cours: Modernes JavaScript (ES6): jQuery, node.js, und viel Praxis!
-  - Abschnitt 8 Objecte<br>
+  - Abschnitt 8 Objecte
+    - [59.Projekt Objekte: Spiel entwickeln](assets/credit/59.Projekt-Objekte_Spiel-entwickeln)<br>
 
 This was then modified to fit the game design: 
 - Setting a time out function 
