@@ -55,7 +55,7 @@ class Box {
     // connected with function setup line 62
     // 20px per second moves the div/ball up
     moveUp() {
-        this.speed = this.speed - 20;
+        this.speed = - 20;
     }
 }
 
