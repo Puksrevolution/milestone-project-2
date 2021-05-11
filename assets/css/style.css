@@ -45,6 +45,15 @@ text-decoration: none;
     background-color: rgb(4, 179, 4);
 }
 
+.button--red {
+    background-color: #c50021;
+    border: 0.4rem solid #c50021;
+    border-radius: 2rem;  
+}
+.button--red:hover {
+    background-color: #e71135;
+} 
+
 /*LAYOUT*/
 /*container*/
 .container {  
@@ -85,4 +94,59 @@ text-decoration: none;
 
 .center {  
     margin: 0px auto;   
+}
+
+/*Modal*/
+/*Game-Over*/
+.game-over {   
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    justify-content: center;
+    align-items: center; 
+    z-index: 5;
+    color: black;
+    font-size: 2.5rem;   
+    text-align: center;    
+}
+
+.game-over__modal {
+    position: relative;  
+    margin: 0 auto;
+    width: 45rem;
+    min-height: 23rem;
+
+    overflow: auto;  
+
+    background-color: rgb(255, 2, 99);
+    border-radius: 0.25rem;  
+
+    /*move down into the screen from the top effect*/
+    animation-name: game-over__box--fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+
+@keyframes game-over__box--fade-in {
+  0% {
+    transform: translate(0, calc(-50vh - 50%));
+    /*using translate, because it goes over the graphic card*/
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.game-over__heading {
+    margin: 4.5rem 1rem 0 1rem;
+    text-shadow: 0 0 0.3rem rgb(0, 141, 160);   
+}
+
+.game-over__text {
+    margin: 1.5rem 1rem 1.85rem 1rem;        
+    font-weight: 250;
 }
