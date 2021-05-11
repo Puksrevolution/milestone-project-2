@@ -27,13 +27,48 @@ class Renderer {
     }
 
     // function to create the div/ball for the game
-    render() {        
-        this.box.style.top = "40px";
+    render(position) {        
+        this.box.style.top = position + "px";
     }
 }
 
-let renderer = new Renderer(document.getElementById("game"));
+class Box {
+    constructor() {
+        this.position = 0;
+    }
+    // this function (position + 1px) will executed 10 times in a second,
+    // connectet with function start on line 55
+    runLoop() {
+        this.position = this.position ++;
+    }
+    // this function let the div/ball move up 20px by every click on the game field
+    // connected with function setup line 62
+    moveUp() {
+        this.position = -20;
+    }
+}
 
-setInterval(() => {
-    renderer.render();
-}, 1000);
+class Game {
+    constructor(element) {
+        this.renderer = new Renderer(element);
+        this.box = new Box();
+        this.element = element;
+        this.setup();
+    }
+
+    setup() {
+        this.element.addEventListener("click", () => {
+            this.box.moveUp();
+        }, false);
+    }
+
+    start() {        
+        setInterval(() => { 
+            this.box.runLoop();           
+            this.renderer.render(this.box.position);
+        }, 100);
+    }
+}
+
+let game = new Game(document.getElementById("game"));
+game.start()
