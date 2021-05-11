@@ -42,7 +42,7 @@ class Box {
         */
         this.speed = 0;
     }
-    // this function (position + 1px) will executed 10 times in a second,
+    // this function (position + 1px) will executed 40 times in a second,
     // connectet with function start on line 70
     runLoop() {
         // increase speed
@@ -75,23 +75,25 @@ class Game {
     }
 
     start() {
+        let score = 0;
         let timer = setInterval(() => {
+            score++;
             this.box.runLoop();
             // contains the gamefield, top border
             if (this.box.position < 0) {     
                 this.isRunning = false;
-                clearInterval(timer)          
-                alert("The ball touched the top border");
+                clearInterval(timer)       // stops the interval loop   
+                alert("The ball touched the top border: " + score + " Points!");
             }
             if (this.box.position + 35 > this.element.clientHeight) {
                 this.isRunning = false;
                 clearInterval(timer)                
-                alert("The ball touched the bottom border");
+                alert("The ball touched the bottom border: " + score + " Points!");
             }
             if (this.isRunning == true) {
             this.renderer.render(this.box.position);
             }
-        }, 100);
+        }, 25);
     }
 }
 
