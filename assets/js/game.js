@@ -74,6 +74,17 @@ class Game {
         }, false);
     }
 
+    alertBox(msg) {
+        let gameOverBox = document.getElementById("gameOver");
+        const messageBox = document.querySelector("#gameOverMessage");
+        messageBox.innerHTML = msg;
+        if (gameOverBox.style.display === "none") {
+            gameOverBox.style.display = "block";
+        } else {
+            gameOverBox.style.display = "none";
+        }
+    }
+
     start() {
         let score = 0;
         let timer = setInterval(() => {
@@ -83,12 +94,12 @@ class Game {
             if (this.box.position < 0) {     
                 this.isRunning = false;
                 clearInterval(timer)       // stops the interval loop   
-                alert("The ball touched the top border: " + score + " Points!");
+                this.alertBox("The ball touched the top border: " + score + " Points!");
             }
             if (this.box.position + 35 > this.element.clientHeight) {
                 this.isRunning = false;
                 clearInterval(timer)                
-                alert("The ball touched the bottom border: " + score + " Points!");
+                this.alertBox("The ball touched the bottom border: " + score + " Points!");
             }
             if (this.isRunning == true) {
             this.renderer.render(this.box.position);
@@ -98,4 +109,7 @@ class Game {
 }
 
 let game = new Game(document.getElementById("game"));
-game.start()
+
+setTimeout(function () {
+  game.start();
+}, 1000);
