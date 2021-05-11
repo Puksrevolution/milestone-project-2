@@ -35,16 +35,21 @@ class Renderer {
 class Box {
     constructor() {
         this.position = 0;
+        this.speed = 0;
     }
     // this function (position + 1px) will executed 10 times in a second,
-    // connectet with function start on line 55
+    // connectet with function start on line 70
     runLoop() {
-        this.position = this.position ++;
+        // increase speed
+        this.speed++;
+        // this function increase the speed and positinon with every loop, function on line 70
+        this.position = this.position + this.speed;
+
     }
     // this function let the div/ball move up 20px by every click on the game field
     // connected with function setup line 62
     moveUp() {
-        this.position = -20;
+        this.position = this.position - 20;
     }
 }
 
@@ -62,9 +67,9 @@ class Game {
         }, false);
     }
 
-    start() {        
-        setInterval(() => { 
-            this.box.runLoop();           
+    start() {
+        setInterval(() => {
+            this.box.runLoop();
             this.renderer.render(this.box.position);
         }, 100);
     }
