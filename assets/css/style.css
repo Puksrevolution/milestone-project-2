@@ -152,3 +152,30 @@ text-decoration: none;
     margin: 1.5rem 1rem 1.85rem 1rem;        
     font-weight: 250;
 }
+
+/** Breakpoints */
+/** 800px or smaller */
+@media (max-width: 50rem) {
+    .container {
+        max-width: 85%;        
+    }   
+    .intro__heading {    
+        font-size: 4rem;  
+    }
+    .intro__text {
+        padding: 0 1.5rem;
+        font-size: 1.2rem;
+        font-weight: 250;  
+    }
+    #game {    
+        width: 90vw;
+        height: 95vh;
+    }    
+    .game-over__modal {
+        width: 100vw;
+        height: 100vh;                        
+    }
+    .game-over__text {
+        font-size: 1.7rem;
+    }
+}
