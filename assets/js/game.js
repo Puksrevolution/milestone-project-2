@@ -76,6 +76,13 @@ class Game {
     start() {
         setInterval(() => {
             this.box.runLoop();
+            // contains the gamefield, top border
+            if (this.box.position < 0) {
+                alert("The ball touched the top border");
+            }
+            if (this.box.position + 35 > this.element.clientHeight) {
+                alert("The ball touched the bottom border");
+            }
             this.renderer.render(this.box.position);
         }, 100);
     }
