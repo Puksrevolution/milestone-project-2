@@ -1,45 +1,319 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+Milestone Project 2
+======
+## **Bounce Ball | A Classic Online Ball Game** ##
 
-Welcome USER_NAME,
+By: [Marina Christen](mailto:puksbusinessworld@gmail.com), May 2021<br>
+This webpage is the second of four Milestone Projects which is a part of the Full Stack Web Development Program of [Code Institute](https://www.codeinstitute.net/).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Screenshot
+======
 
-## Gitpod Reminders
+All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<img src="assets/img/screenshots/....jpg">
 
-`python3 -m http.server`
+Live Project
+======
+[View the live project here]( https://puksrevolution.github.io/milestone-project-2/)
 
-A blue button should appear to click: *Make Public*,
+---
+# Table of contents
 
-Another blue button should appear to click: *Open Browser*.
++ [Project](#project)
+  * [Project description](#project-description)  
+  * [Website description](#website-description)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
++ [User Experience Design](#user-experience-design)
+  * [Project Goals](#project-goals)
+  * [User Stories](#user-stories)    
 
-A blue button should appear to click: *Make Public*,
++ [Design](#design)
+  * [Colours](#colours)
+  * [Typography](#typography)    
+  * [Imagery](#imagery)  
+  * [Wireframes](#wireframes)
 
-Another blue button should appear to click: *Open Browser*.
++ [Features](#features)
+  * [Responsive Design](#responsive-design)
+  * [Interactive Elements](#interactive-elements)
+  * [Future Features](#future-features)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
++ [Technologies](#technologies)
+  * [Languages](#languages)
+  * [Tools](#tools)
 
-## Updates Since The Instructional Video
++ [Testing](#testing)     
+  * [Known Bugs](#known-bugs)      
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
++ [Deployment](#deployment)
+  * [Resporitory on GitHub](#resporitory-on-github)
+  * [Workspace on GitPot](#workspace-on-gitpot)
+  * [Back to GitHub](#back-to-github)
+  * [Deploy the projet to GitHub Pages](#deploy-the-projet-to-github-pages)
+  * [How to run the project locally](#how-to-run-the-project-locally)
+    - [Forking the GitHub Repository](#forking-the-gitHub-repository)
+    - [Cloning the GitHub Repository](#cloning-the-gitHub-repository)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
++ [Credits](#credits)
+  * [Code](#code)
+  * [Media](#media)
+  * [Content](#content)  
+  * [Acknowledgements](#acknowledgements)  
+  
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+---
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Project
+======
+### **Project description** ###
+The purpos of this project is to showcase the knowledge of HTML, CSS & JavaScript I gained
+so far in this course. The task is to  build an interactive front-end site. 
+The site should respond to the users' actions, allowing users to actively engage with data, alter the way the site
+displays the information to achieve their preferred goals.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### **Website description** ###
+This webpage provides the users with an entertaining simple ball game.
+It is easy to understand and simple to interact with feedback for the times, 
+when you need to wait for something....
+It also trains a person's reaction time, dexterity and endurance.
+The layout of the game is an Hommage to the classic arcade games.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+User Experience Design
+======
+### **Project Goals** ###
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- To build something awesome to be proud of.
+- To make effective use of course knowledge.
+- To make a project that works and is practical.
+- To create a fun game that makes the user want to stay and play again.
 
---------
+### **User Stories** ###
 
-Happy coding!
+- As a user, I want to easily understand the main purpose of the site clear and easily understand instructions on how to play the game.
+  - Solution:<br>
+  The website has two pages, the index.html and the game.html. 
+  The large clear titel and the instruction how to play the game on the index page, 
+  will enable the users to immediately see what the site and game is about as soon as they enter.   
+
+- As a user, I want to view the website, the layout and content clearly on any device.
+  - Solution:<br>
+  The website is made responsive on all devices with a simple layout, css classes, 
+  a container and media queries.  
+
+- As a user, I want to be able to start a game when I am ready.
+  - Solution:<br>
+  A button to start the game added below the instruction content with a href to the game page.
+
+- As a user, I want be able to start a new game when the current game has ended. 
+  - Solution:<br>
+  A Modal appears when the user loos the game and there is a button below the "Game Over" message to start the game again with a href to the game page, so that the site get automaticly reloaded.
+
+- As a user, I want to be able to quit the game and get back to the index page with the instruction.
+  - Solution:<br>
+  A Modal appears when the user loos the game and there is a button below the "Game Over" message to quit the game with a href to the index page.  
+
+- As a user, I want to see a clear top and bottom border of the gamefield.
+  - Solution:<br>
+  The div of the gamefield has a solid border of 0.3rem and a shiny neon style color that stands out 
+  very well against the black background. 
+
+- As a user, I want to see my score.
+  - Solution:<br>
+  A Modal appears when the user loos the game and it will show up a messag why the user loos and it shows the reached score of the user. 
+
+Design
+======
+
+### **Colours** ###
+The colore theme and I have choosen, is an Hommage to the classic arcade games. 
+The black backgroung in combination with the rich pink and the dark blue 
+gives the whole layout this shiny neon effect of the arcade game times.
+
+![Colour palette](assets/img/colors/color-palette.jpg)
+​
+- *Black* (#000000) - Black
+- *Paradise Pink* (#FF0263) - Rich Pink
+- *Blue Munsell* (#008DA0) - Dark Blue
+- *Sky Blue Crayola* (#00C5DF) - Bright Blue
+- *White* (#FFFFFF) - White
+- *Ao English* (#008000) - Dark Green
+- *Yellow Green Color Wheel* (#04B304) - Bright Green 
+- *Lava* (#C50021) - Dark Red
+- *Rose Madder* (#E71135) - Bright Red
+
+The recognisable classic green and red color for the game buttons helps the user
+better to identify the purpos of them.
+
+### **Typography** ###
+The used Font family is the classic Arial and by default Helvetica or in last case Sans-Serif.
+
+### **Imagery** ###
+<img src="assets/img/favicon/BounceBall.png"><br>
+A simple and good recognisable Favicon, created with [paint.net](https://www.getpaint.net/roadmap.html) in the good old arcade games styles, shines in the browser window next to the webpage title.
+
+### **Wireframes** ###
+
+<img src="assets/img/wireframes/wireframes.jpg">
+
+Features
+======
+
+### **Responsive Design** ###
+​
+Responsive design on all devices with using css style code to give a simple, user friendly display.
+​
+
+### **Interactive Elements**​ ###
+
+- The **main features** of the site are:
+  - A home page with a instruction how to play the game and a game start button to navigate to the game page and start the game.
+  - An interactive game with a styled div as a ball on a gamefield rendered with a clear border.
+  - The div/ball and position is createt with a JavaScript function.
+  - The the movement and speed of the div/ball is createt with a JavaScript function.
+  - The div/ball move function has set a time out of 1500 miliseconds, so that the user get a breath moment to react to the falling ball.
+  - The game is based around the arcade game Theme.
+  - A user score counter represented by a message on a appearing modal at the end of the game.
+  - A appearing modal with a game over message, when the user loos the game.
+  - At the bottom of the appearing modal is a new game and a quit game button for navigate purpos.
+  - The start game button refreshes the game.html to start a new game.
+  - The quit game button with a href for the index.html brings the user back to the home page.
+ 
+- **Additional Site features:**
+  - A friendly HTTP 404 Error landing page for site visitors to see if a requested page is unavailable or cannot be accessed.
+    - The page provides a button to click to return the visitor to the homepage.
+​
+      ![404 Error](assets/img/screenshots/404-error.png)
+​
+​
+### **Future Features**​ ###
+
+- This small app has the potential to be expanded with **additional features**:
+  - A visual count down form 3 till 1 before the game beginns
+  - A Leaderboard in classic arcade game style with a list of the top 10 people highscore, which played the game. 
+    - The user get at the end the score and gets the possibility to add their name to the leaderboard. ​
+
+
+Technologies
+======
+
+### **Languages** ###
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - Used as the main markup language for the website content.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - Used to style the individual webpages.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - Used to create the interactive functionality of the website
+
+### **Tools** ###
+
+- [Git](https://git-scm.com/)
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+- [GitHub](https://github.com/)
+  - Used to store, host and deploy the project files and source code after being pushed from Git.
+- [GitPod](https://www.gitpod.io/)
+  - An online IDE linked to the GitHub repository used for the majority of the code development.
+- [Coolors](https://coolors.co/)
+  - An online tool used to choose the website colour scheme.
+- [What is my Screen Resolution](http://whatismyscreenresolution.net/)
+  - An online tool to find out the screen resolution on your device used for CSS @media queries
+- [Am I Responsive?](http://ami.responsivedesign.is/)
+  - A tool for taking a quick snapshot of the responsive breakpoints of the website to visualize how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
+- [paint.net](https://www.getpaint.net/download.html)
+  - A photo and images editor program.  ​
+
+[Back to contents](#contents)
+
+​
+Testing
+======
+
+Testing information can be found in a separate [testing.md](testing.md).
+
+### **Known Bugs** ###
+
+
+Deployment
+======
+The website was develoyed using Gitpod and using Git pushed to GitHub, 
+which hosts the repository.
+I made the following steps to To create this project:
+
+### **Resporitory on GitHub** ###
+- I opened up GitHub in the browser.
+- I signed in with my username and password.
+- I selected "Your repositories".
+- I selected and used the code-institute-full-temlate repository I got from the [Code Institute](https://www.codeinstitute.net/) 
+to created a public milestone-project-2 repository with the button "use this Template".
+
+### **Workspace on GitPod** ###
+- I used the green "Gitpod" button to open the milestone-project-2 repository in the workspace Gitpod.
+- I pinned first the workspace milestone-project-2 on the dashbord.
+- Then I opened the workspace and created the required folders, files and code for the website and added all needed images.
+- I used regular the git commands to add, commit and push the work on Gitpod to GitHub.
+
+### **Back to GitHub** ###
+- I saved the work I did on Gitpod at the end of every day with the help of the git push command, 
+which pushes (saves) everything back on GitHub.
+
+### **Deploy the project to GitHub Pages** ###
+- I located at the top of the Repository the "Settings" Button on the menu.
+- I had to scroll down the Settings page untilthe "GitHub Pages" Section.
+- I clicked the dropdonwn called "None" under "Source" and select "Master Branch".
+- I clicked on the "Save" button and the page automatically refreshed.
+- I had to scroll down again to the "GitHub Pages" Section to get the published site link for my project.
+
+### **How to run the project locally** ###
+You can either fork or clone the GitHub repository to use this project.
+
+- ### **Forking the GitHub Repository** ###
+  - Log in to GitHub and locate the GitHub account [Puksrevolution](https://github.com/Puksrevolution)
+to get the milestone-project-2 repository mentioned above.
+  - Make a copy of the GitHub Repository by "forking" the orginal repository onto your own account, 
+where changes can be made without affecting original repository.
+  - Click on the fork icon (located on top right of the page at the same level of repository name)
+  - You should now have a copy of this repository into your GitHub account.
+
+For more information on how to clone a repository, please check this [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+
+- ### **Cloning the GitHub Repository** ###
+  - Log in to GitHub and locate the GitHub account [Puksrevolution](https://github.com/Puksrevolution) 
+  to get the milestone-project-2 repository mentioned above.  
+  
+  - Under the repository name, click the **Code** button.
+  - **Copy** the url in the dropdown box.
+  - Using your favourite **IDE** open up your preferred terminal.
+  - **Navigate** to your desired file location.
+​​
+```
+gh repo clone Puksrevolution/milestone-project-2
+```
+    
+You can find all the steps to follow according your chosen method in this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on how to clone a reposistory.
+
+Credits
+======
+
+The JavaScript ball game was created by following a tutorial from [Jannis Seemann](https://www.udemy.com/courses/search/?src=ukw&q=Jannis+Seemann) 
+on Udemy with the tutors permission to use the code for other Projects.
+- Cours: Modernes JavaScript (ES6): jQuery, node.js, und viel Praxis!
+  - Abschnitt 8 Objecte<br>
+
+This was then modified to fit the game design: 
+- Setting a time out function 
+- Adding a modified modal with a score function and two individual messages
+- layout desinge change to get the arcade game style
+- added a home page and a error 404 page to it
+
+### **Content** ###
+- All content was written by the developer.
+
+### **Media** ####
+- All images are from the developer and were edited by the developer.
+
+### **Acknowledgements** ###
+- Jannis Seemann for the re-use of many ideas and code snippets.
+- Simon Vardy, Praveen and Michael Standen for their support and help.
+- Code Institute Course material.
