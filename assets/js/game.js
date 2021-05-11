@@ -35,6 +35,11 @@ class Renderer {
 class Box {
     constructor() {
         this.position = 0;
+
+        /**
+        * Negative Speed: get up
+        * positive Speed: get down
+        */
         this.speed = 0;
     }
     // this function (position + 1px) will executed 10 times in a second,
@@ -48,8 +53,9 @@ class Box {
     }
     // this function let the div/ball move up 20px by every click on the game field
     // connected with function setup line 62
+    // 20px per second moves the div/ball up
     moveUp() {
-        this.position = this.position - 20;
+        this.speed = this.speed - 20;
     }
 }
 
