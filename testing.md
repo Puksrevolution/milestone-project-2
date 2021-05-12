@@ -18,6 +18,7 @@ Milestone Project 2
   - [Browser testing undertaken on Laptop](#browser-testing-undertaken-on-laptop)
   - [Testing undertaken on smartphone device](#testing-undertaken-on-smartphone-device)
 - [Bugs](#bugs)
+    - [Bugs](#bugs)
     - [Bug fix](#bug-fix)
     
 ---
@@ -33,8 +34,12 @@ The following **validation services** and **linters** were used to check the val
 - [W3C Markup Validation](https://validator.w3.org/) 
   - This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
 
+  ![Result](assets/img/test/testTools/HTML_Validator.jpg)
+
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
   - This validator checks the validity of cascading style sheets (css) and (X)HTML documents with style sheets.
+
+  ![Result](assets/img/test/testTools/CSS_Validator.png)
 
 - [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
   - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
@@ -42,11 +47,11 @@ The following **validation services** and **linters** were used to check the val
 
   - ### **Desktop Performance Report** ###
 
-    ![Google Lighthouse - Desktop](assets/img/test/testing-lighthouse-desktop.png)
+    ![Google Lighthouse - Desktop](assets/img/test/testTools/Lighthouse_Desktop.png)
 
   - ### **Mobile Performance Report** ###
 
-    ![Google Lighthouse - Mobile](assets/img/test/testing-lighthouse-mobile.png)
+    ![Google Lighthouse - Mobile](assets/img/test/testTools/Lighthouse_Mobile.png)
 
 - [JSLint](https://jslint.com/)
   - JSLint is a code quality tool that detects errors and potential problems in JavaScript code.
@@ -76,16 +81,11 @@ The following **validation services** and **linters** were used to check the val
   - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.
   - The following option were selected to prevent  errors and warning being returned owing to the strict nature of the checking:
 
-    ![JSLint Options](assets/img/test/testing-jshint-options.png)
-
-  - game.js testing using JSHint passed the linter test successfully with the following selected additional option:
-    - New JavaScript features (ES6)
-      - This was selected as both scripts use ECMAScript 6 features such as `const`
-
+    ![JSHint Options](assets/img/test/testTools/JSHint_Configure.png)
 
   - **game.js results**
 
-    ![JSLint Options](assets/img/test/testing-jshint-results-alarm.png)
+    ![JSHint Result](assets/img/test/testTools/JSHint_JS-code.png)
  
 
 
@@ -143,6 +143,24 @@ Manual Testing
 
 Bugs
 ======
+
+## **Known Bugs** ##
+
+- [W3C Markup Validation](https://validator.w3.org/) 
+  
+  ![Bugs](assets/img/test/bugs/HTML_bugs.jpg)
+
+- [W3C CSS validation](https://jigsaw.w3.org/css-bugs/)
+  
+  ![Bugs](assets/img/test/bugs/CSS_bugs.jpg)
+
+- [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)   
+
+    ![Bugs](assets/img/test/bugs/Lighthouse_bugs.jpg)
+
+- [JSHint (version 2.12.0)](https://jshint.com/)   
+
+    ![Bugs](assets/img/test/bugs/JSHint_bugs.jpg)    
 
 ## **Bug fix** ##
 
