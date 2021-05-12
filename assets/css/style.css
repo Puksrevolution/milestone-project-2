@@ -153,6 +153,26 @@ text-decoration: none;
     font-weight: 250;
 }
 
+/*404 Error Page*/
+.error {
+    color: rgb(0, 141, 160);   
+    text-align: center;   
+}
+
+.error__heading {
+    margin: 3rem 0 2rem 0;
+    font-size: 7rem;
+    text-shadow: 0 0 0.3rem rgb(255, 2, 99);
+    line-height: 0.95;    
+}
+
+.error__text {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 250;  
+}
+
 /** Breakpoints */
 /** 800px or smaller */
 @media (max-width: 50rem) {
