@@ -93,12 +93,12 @@ class Game {
             // contains the gamefield, top border
             if (this.box.position < 0) {     
                 this.isRunning = false;
-                clearInterval(timer)       // stops the interval loop   
+                clearInterval(timer);       // stops the interval loop   
                 this.alertBox("The ball touched the top border: " + score + " Points!");
             }
             if (this.box.position + 35 > this.element.clientHeight) {
                 this.isRunning = false;
-                clearInterval(timer)                
+                clearInterval(timer);                
                 this.alertBox("The ball touched the bottom border: " + score + " Points!");
             }
             if (this.isRunning == true) {
