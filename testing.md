@@ -144,7 +144,7 @@ Manual Testing
 Bugs
 ======
 
-## **Known Bugs** ##
+## **Bugs** ##
 
 - [W3C Markup Validation](https://validator.w3.org/) 
   
@@ -163,5 +163,14 @@ Bugs
     ![Bugs](assets/img/test/bugs/JSHint_bugs.jpg)    
 
 ## **Bug fix** ##
+
+- [W3C Markup Validation](https://validator.w3.org/)
+
+  - Removed the button tag and gave the a tag the css style classes of the button and the type button.
+
+- [W3C CSS validation](https://jigsaw.w3.org/css-bugs/)
+
+  - Removed the font-weight: 250; from the intro_text, game-over_text and error_text css classes.
+  - Replaced all h3 tags with p tags on the index, game and 404 html files.
 
 [Back to contents](#contents)
