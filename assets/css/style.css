@@ -183,6 +183,12 @@ text-decoration: none;
 }
 
 /** Breakpoints */
+/** 320px or smaller */
+@media (max-width: 20rem) {
+    .error__heading {
+        font-size: 4rem;
+    }
+}
 /** 800px or smaller */
 @media (max-width: 50rem) {
     .container {
