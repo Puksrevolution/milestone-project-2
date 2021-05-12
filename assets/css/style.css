@@ -53,6 +53,18 @@ text-decoration: none;
 }
 .button--red:hover {
     background-color: #e71135;
+}
+
+.button--error {
+    color: black;
+    text-shadow: 0 0 0.125rem rgb(255, 50, 128);
+    background-color: rgb(0, 141, 160);
+    border: 0.4rem solid rgb(0, 141, 160);
+    border-radius: 2rem;
+    box-shadow: 0 0 0.2rem rgb(255, 2, 99);  
+}
+.button--error:hover {
+    background-color: rgb(0, 197, 223);
 } 
 
 /*LAYOUT*/
