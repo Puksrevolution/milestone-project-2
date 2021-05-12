@@ -40,7 +40,7 @@ Step One
 - Second function sets a different position for the div.
 - Tested it with a setInterval() of 1000 milliseconds.
 
-[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/blob/master/assets/img/screenshots/jsDocu/1_renderer)
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/1_renderer)
 
 Step Two
 ======
@@ -55,7 +55,7 @@ Step Two
 - Creating a function that changes the position of the div/ball by every click on the game field in 
 the class Box and connected it with the click event in the class Game.
 
-[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/blob/master/assets/img/screenshots/jsDocu/2_gameLoop)
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/2_gameLoop)
 
 Step Three
 ======
@@ -68,7 +68,7 @@ Step Three
 - Changing the moveUp() function and replace the position with the speed .
 variable click event to take the fall speed from the div/ball.
 
-[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/blob/master/assets/img/screenshots/jsDocu/3_speed)
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/3_speed)
 
 Step Four
 ======
@@ -78,7 +78,7 @@ Step Four
 - Creating a function into the start function of the class Game to contain.
 the game field, getting alert when div/ball touches the top or bottom border of the game field.
 
-[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/blob/master/assets/img/screenshots/jsDocu/4_contain)
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/4_contain)
 
 Step Five
 ======
@@ -90,7 +90,7 @@ Step Five
 - Setting a function into the setInterval() with clearInterval(timer). 
 to stop the interval loop, when game ended.
 
-[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/blob/master/assets/img/screenshots/jsDocu/5_gameEnd)
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/5_gameEnd)
 
 Step Six
 ======
@@ -101,7 +101,7 @@ Step Six
 - Adding a count function to it.
 - Including the return of the score variable into the alert message.
 
-[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/blob/master/assets/img/screenshots/jsDocu/6_score)
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/6_score)
 
 Step Seven
 ======
@@ -112,7 +112,7 @@ Step Seven
 - Creating a variable to manipulate the inner HTML of the modal targeting the content.
 - Changing the alert to into the modal function.
 
-[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/blob/master/assets/img/screenshots/7_modal)
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/7_modal)
 
 Step Eight
 ======
@@ -121,6 +121,6 @@ Step Eight
 
 - Set a setTimeOut function so that the game starts a second after the pages loaded.
 
-[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/blob/master/assets/img/screenshots/jsDocu/8_modal)
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/8_timeOut)
 
 [Back to contents](#contents)
