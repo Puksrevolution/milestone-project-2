@@ -210,4 +210,8 @@ text-decoration: none;
     .game-over__text {
         font-size: 1.7rem;
     }
+
+    .error__heading {
+        font-size: 5rem;
+    }
 }
