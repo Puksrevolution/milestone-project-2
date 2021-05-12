@@ -192,7 +192,7 @@ Responsive design on all devices with using css style code to give a simple, use
   - A friendly HTTP 404 Error landing page for site visitors to see if a requested page is unavailable or cannot be accessed.
     - The page provides a button to click to return the visitor to the homepage.
 ​
-      ![404 Error](assets/img/screenshots/404-error.png)
+      ![404 Error](assets/img/screenshots/error-page.jpg)
 ​
 ​
 ### **Future Features**​ ###
@@ -200,7 +200,8 @@ Responsive design on all devices with using css style code to give a simple, use
 - This small app has the potential to be expanded with **additional features**:
   - A visual count down form 3 till 1 before the game beginns
   - A Leaderboard in classic arcade game style with a list of the top 10 people highscore, which played the game. 
-    - The user get at the end the score and gets the possibility to add their name to the leaderboard. ​
+    - The user get at the end the score and gets the possibility to add their name to the leaderboard.
+  - Different levels with more speed, two or three balls at the same time, a ball which will move randomly in all directions etc.
 
 
 [Back to contents](#contents)
@@ -251,6 +252,8 @@ Testing
 Testing information can be found in a separate [testing.md](testing.md).
 
 ### **Known Bugs** ###
+
+All information of bug and bugs fix can be found in a separate [testing.md](testing.md).
 
 [Back to contents](#contents)
 
