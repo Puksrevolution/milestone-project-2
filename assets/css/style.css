@@ -186,7 +186,10 @@ text-decoration: none;
 /** 320px or smaller */
 @media (max-width: 20rem) {
     .error__heading {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+    .button--red {
+        margin-bottom: 2rem;
     }
 }
 /** 800px or smaller */
@@ -212,7 +215,6 @@ text-decoration: none;
     .game-over__text {
         font-size: 1.7rem;
     }
-
     .error__heading {
         font-size: 5rem;
     }

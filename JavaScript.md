@@ -40,7 +40,7 @@ Step One
 - Second function sets a different position for the div.
 - Tested it with a setInterval() of 1000 milliseconds.
 
-[Screenshots of the steps](assets/jsDocu/1_renderer)
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/blob/master/assets/img/screenshots/jsDocu/1_renderer)
 
 Step Two
 ======
