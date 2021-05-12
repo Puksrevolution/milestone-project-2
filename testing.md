@@ -174,6 +174,9 @@ Bugs
   - Replaced all h3 tags with p tags on the index, game and 404 html files.
   - The same background-color and border-color of the buttons is wanted like this.
 
+- [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
+  - The PWA will get optimized, when the developer knows how to do that.
+
 - [JSHint (version 2.12.0)](https://jshint.com/)
   - Fixed the missing semicolon on line 96 and 101.
 
