@@ -112,4 +112,4 @@ let game = new Game(document.getElementById("game"));
 
 setTimeout(function () {
   game.start();
-}, 10000000000);
+}, 1000);

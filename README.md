@@ -10,7 +10,7 @@ Screenshot
 
 All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
-<img src="assets/img/screenshots/....jpg">
+<img src="assets/img/screenshots/MS2.jpg">
 
 Live Project
 ======
