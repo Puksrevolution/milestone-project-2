@@ -186,7 +186,7 @@ text-decoration: none;
 /** 320px or smaller */
 @media (max-width: 20rem) {
     .error__heading {
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 }
 /** 800px or smaller */

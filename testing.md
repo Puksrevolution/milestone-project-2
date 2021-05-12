@@ -53,30 +53,6 @@ The following **validation services** and **linters** were used to check the val
 
     ![Google Lighthouse - Mobile](assets/img/test/testTools/Lighthouse_Mobile.png)
 
-- [JSLint](https://jslint.com/)
-  - JSLint is a code quality tool that detects errors and potential problems in JavaScript code.
-  - The following option were selected to prevent  errors and warning being returned owing to the strict nature of the checking:
-  ![JSLint Options](assets/img/test/testing-jslint-options.png)
-
-  - game.js testing using JSLint passed the linter test successfully with the following selected options: 
-    - Assume: a browser
-      - This was required as JSLint is intolerant of DOM HTML `.getElementByID()` method.
-    - Tolerate: single quote strings
-       - This was needed to handle the font awesome bell icon `bellIconDiv.innerHTML = '<i class="far fa-bell-slash"></i>';` string.
-    - Tolerate: this
-      - Used in game.js function `alarmSetButton.onclick`
-    - Tolerate: Whitespace mess
-      - JSLint is very picky about whitespace at the end of comments as well as code. The .js files were cleansed of whitespaces but the odd one still lurks here or there giving frustrating errors. It's also very sensitive to indentation styles. 
-        - The code is indented with the standard 2 spaces but triggers JSLint warnings
-        ![JSLint whitespace warnings](assets/img/test/testing-jslint-whitespace-warnings.png)
-    - /\*global\*/ directive is used to instruct JSLint not to give undeclared 'Image' warnings when creating new HTMLImageElement instances.
-    ![JSLint whitespace warnings](assets/img/test/testing-jslint-global-warnings.png)
-
-
-    - **game.js results**
-    ![JSLint results for game.js](assets/img/test/testing-jslint-results-alarm.png)
-
-
 - [JSHint (version 2.12.0)](https://jshint.com/)
   - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.
   - The following option were selected to prevent  errors and warning being returned owing to the strict nature of the checking:
@@ -87,7 +63,6 @@ The following **validation services** and **linters** were used to check the val
 
     ![JSHint Result](assets/img/test/testTools/JSHint_JS-code.png)
  
-
 
 Manual Testing
 ======
@@ -122,11 +97,10 @@ Manual Testing
 ​
 | Browser | Version | Pass/Fail |
 | :---: | --- | :---: |
-| Chrome | 90.0.4430.212 |  |
-| Firefox | 87.0 |  |
-| Edge | 90.0.818.56 |  |
-| Opera | 76.0.4017.107 |  |
-| Safari | 5.1.7 |  |
+| Chrome | 90.0.4430.212 | Pass |
+| Firefox | 87.0 | Pass |
+| Edge | 90.0.818.56 | Pass |
+| Opera | 76.0.4017.107 | Pass |
 
 ### **Testing undertaken on smartphone device** ###
 
@@ -137,9 +111,9 @@ Manual Testing
 
 | Browser | Version | Pass/Fail |
 | :---: | --- | :---: |
-| Samsung |13.2.1.70 |  |
-| Chrome | 81.0.4044.138 |  |
-| Firefox | 88.1.3 |  |
+| Samsung |13.2.1.70 | Pass |
+| Chrome | 81.0.4044.138 | Pass |
+| Firefox | 88.1.3 | Pass |
 
 Bugs
 ======
