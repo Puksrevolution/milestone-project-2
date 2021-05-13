@@ -1,5 +1,18 @@
 "use strict";
 
+let countDown = 4;
+let count = setInterval(function() {    
+    countDown = countDown - 1;
+
+    document.getElementById("countDownNr").innerHTML = countDown;
+
+    // If the count down is finished, write some text
+    if (countDown < 0) {
+        clearInterval(count);
+        document.getElementById("countDownNr").innerHTML = "Start";    
+    }
+}, 1000);
+
 // class for rendering purpose
 class Renderer {
 
