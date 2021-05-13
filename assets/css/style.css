@@ -32,8 +32,7 @@ text-decoration: none;
     font-weight: bold;  
     text-transform: uppercase;
     text-shadow: 0 0 0.2rem black;    
-    border-radius: 2rem;
-    box-shadow: 0 0 0.15rem white;
+    border-radius: 2rem;    
     cursor: pointer;
 }
 
@@ -65,7 +64,30 @@ text-decoration: none;
 }
 .button--error:hover {
     background-color: rgb(0, 197, 223);
-} 
+}
+
+.shadow--white {
+    box-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 15px rgba(202,228,225,0.5),
+    0 0 30px rgba(202,228,225,0.34);
+}
+
+.shadow--blue {
+    box-shadow:
+    0 0 6px rgba(202,228,225,0.5),
+    0 0 15px rgba(0, 122, 138,0.34),
+    0 0 12px rgba(0, 122, 138, 0.4),
+    0 0 30px rgba(0, 122, 138,0.34);
+}
+
+.shadow--pink {
+    box-shadow:
+    0 0 6px rgba(202,228,225,0.5),    
+    0 0 15px rgba(202,228,225,0.34),
+    0 0 12px rgba(223, 0, 85, 0.52),
+    0 0 21px rgba(223, 0, 85,0.92); 
+}
 
 /*LAYOUT*/
 /*container*/
@@ -82,10 +104,18 @@ text-decoration: none;
 }
 
 .intro__heading {
-    margin: 3rem 0 2rem 0;
-    font-size: 5rem;
-    text-shadow: 0 0 0.3rem rgb(0, 141, 160);
-    line-height: 0.95;    
+  margin: 3rem 0 1rem 0;
+  font-size: 5rem;  
+  text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 15px rgba(202,228,225,0.5),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(0, 141, 160,0.52),
+    0 0 21px rgba(0, 141, 160,0.92),
+    0 0 34px rgba(0, 141, 160,0.78),
+    0 0 54px rgba(0, 141, 160,0.92),
+    0 0 65px rgba(0, 141, 160,0.85),
+    0 0 79px rgba(0, 141, 160,0.95);     
 }
 
 .intro__text {
@@ -100,9 +130,20 @@ text-decoration: none;
     /*game needs relative position to give the div/ball an absoute position in the game field*/
     width: 50vw;
     height: 95vh;    
-    background-color: black;
+    background-color: transparent;
     border: solid 0.3rem rgb(0, 197, 223);
-    box-shadow: 0 0 1.5rem rgb(0, 141, 160);       
+    box-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 15px rgba(202,228,225,0.5),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(0, 141, 160,0.52),
+    0 0 21px rgba(0, 141, 160,0.92),
+    0 0 34px rgba(0, 141, 160,0.78),
+    0 0 54px rgba(0, 141, 160,0.92),
+    0 0 65px rgba(0, 141, 160,0.85),
+    0 0 79px rgba(0, 141, 160,0.95);
+    z-index: 2;
+    /*a z-index is needed for the lay over the count down modal*/       
 }
 
 .center {  
@@ -122,7 +163,8 @@ text-decoration: none;
     z-index: 5;
     color: black;
     font-size: 2.5rem;   
-    text-align: center;    
+    text-align: center; 
+    z-index: 3;   
 }
 
 .game-over__modal {
@@ -155,15 +197,24 @@ text-decoration: none;
 }
 
 .game-over__heading {
-    margin: 4.5rem 1rem 0 1rem;
-    text-shadow: 0 0 0.3rem rgb(0, 141, 160);   
+  margin-top: 4.5rem;  
+  text-shadow:
+    0 0 6px rgba(202,228,225,0.5),
+    0 0 15px rgba(202,228,225,0.34),
+    0 0 12px rgba(0, 122, 138, 0.62),
+    0 0 21px rgba(0, 122, 138,0.92),
+    0 0 34px rgba(0, 122, 138,0.78),
+    0 0 54px rgba(0, 122, 138,0.92),
+    0 0 65px rgba(0, 122, 138,0.85),
+    0 0 79px rgba(0, 122, 138,0.95);   
 }
 
 .game-over__text {
     margin: 1.5rem 1rem 1.85rem 1rem;     
 }
 
-/*404 Error Page*/
+/*Error Pages*/
+/*404*/
 .error {
     color: rgb(0, 141, 160);   
     text-align: center;   
@@ -171,9 +222,17 @@ text-decoration: none;
 
 .error__heading {
     margin: 3rem 0 2rem 0;
-    font-size: 7rem;
-    text-shadow: 0 0 0.3rem rgb(255, 2, 99);
+    font-size: 7rem;    
     line-height: 0.95;    
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.6),    
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(255, 2, 99,0.52),
+    0 0 21px rgba(255, 2, 99,0.92),
+    0 0 34px rgba(255, 2, 99,0.78),
+    0 0 54px rgba(255, 2, 99,0.92),
+    0 0 65px rgba(255, 2, 99,0.85),
+    0 0 79px rgba(255, 2, 99,0.95);      
 }
 
 .error__text {
@@ -187,10 +246,7 @@ text-decoration: none;
 @media (max-width: 20rem) {
     .error__heading {
         font-size: 2rem;
-    }
-    .button--red {
-        margin-bottom: 2rem;
-    }
+    }    
 }
 /** 800px or smaller */
 @media (max-width: 50rem) {
