@@ -154,7 +154,7 @@ The recognisable classic green and red color for the game buttons helps the user
 better to identify the purpos of them.
 
 ### **Typography** ###
-The used Font family is the classic Arial and by default Helvetica or in last case Sans-Serif.
+The used Font family is Varela Round and by default Sans-Serif.
 
 ### **Imagery** ###
 <img src="assets/img/favicon/BounceBall.png"><br>
