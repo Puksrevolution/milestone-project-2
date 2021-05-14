@@ -27,6 +27,8 @@ Milestone Project 2
     - [Modal](#modal)
 - [Step Eight](#step-eight)
     - [A breath moment](#a-breat-moment)
+- [Step Nine](#step-eight)
+    - [Count Down](#count-down)
     
 ---
 
@@ -125,6 +127,9 @@ Step Eight
 
 Step Nine
 ======
+
+## **Count Down** ##
+
 - Added a div element below the game field div in the game.html to create a count down and styled it
 - Added a count down function to the js with that manipulate the innerHTML of the count down div
 - Added a time out function to the div element that turns opasity to 0
