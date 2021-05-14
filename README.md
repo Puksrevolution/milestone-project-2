@@ -179,7 +179,8 @@ Responsive design on all devices with using css style code to give a simple, use
   - A home page with a instruction how to play the game and a game start button to navigate to the game page and start the game.
   - An interactive game with a styled div as a ball on a gamefield rendered with a clear border.
   - The div/ball and position is createt with a JavaScript function.
-  - The the movement and speed of the div/ball is createt with a JavaScript function.
+  - The movement and speed of the div/ball is createt with a JavaScript function.
+  - Before the game beginns is there a visual count down form 3 till 0 and the word Start
   - The div/ball move function has set a time out of 1500 miliseconds, so that the user get a breath moment to react to the falling ball.
   - The game is based around the arcade game Theme.
   - A user score counter represented by a message on a appearing modal at the end of the game.
@@ -197,8 +198,7 @@ Responsive design on all devices with using css style code to give a simple, use
 ​
 ### **Future Features**​ ###
 
-- This small app has the potential to be expanded with **additional features**:
-  - A visual count down form 3 till 1 before the game beginns
+- This small app has the potential to be expanded with **additional features**:  
   - A Leaderboard in classic arcade game style with a list of the top 10 people highscore, which played the game. 
     - The user get at the end the score and gets the possibility to add their name to the leaderboard.
   - Different levels with more speed, two or three balls at the same time, a ball which will move randomly in all directions etc.
