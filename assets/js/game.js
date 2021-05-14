@@ -1,4 +1,8 @@
 "use strict";
+let modal = document.getElementById("countDown");
+setTimeout(function(){
+    modal.style.opacity = "0";   
+}, 5500);
 
 let countDown = 4;
 let count = setInterval(function() {    
@@ -125,4 +129,4 @@ let game = new Game(document.getElementById("game"));
 
 setTimeout(function () {
   game.start();
-}, 1000);
+}, 6200);
