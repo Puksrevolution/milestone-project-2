@@ -123,4 +123,15 @@ Step Eight
 
 [Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/8_timeOut)
 
+Step Nine
+======
+- Added a div element below the game field div in the game.html to create a count down and styled it
+- Added a count down function to the js with that manipulate the innerHTML of the count down div
+- Added a time out function to the div element that turns opasity to 0
+- Needed changes in css:
+  - game field background-color transparent and z-index 2
+  - count down modul opasity 1 and z-index -1
+
+[Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/9_countDown)
+
 [Back to contents](#contents)
