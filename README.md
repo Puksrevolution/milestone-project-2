@@ -332,6 +332,20 @@ This was then modified to fit the game design:
 - layout desinge change to get the arcade game style
 - added a home page and a error 404 page to it
 
+Used a css sniped from [Free Frontend](https://freefrontend.com/css-glow-text-effects/)
+- [Mark Heggan](https://markheggan.co.uk)
+  - [CSS NEON / Simple animated neon effect created with CSS.](https://codepen.io/markheggan/pen/LjrVYN) 
+
+````
+text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(30,132,242,0.52),
+    0 0 21px rgba(30,132,242,0.92),
+    0 0 34px rgba(30,132,242,0.78),
+    0 0 54px rgba(30,132,242,0.92);
+````
+
 ### **Content** ###
 - All content was written by the developer.
 
