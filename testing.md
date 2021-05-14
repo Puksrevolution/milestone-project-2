@@ -49,6 +49,12 @@ The following **validation services** and **linters** were used to check the val
 
     ![Google Lighthouse - Desktop](assets/img/test/testTools/Lighthouse_Desktop.png)
 
+  - Second testing after css style changes
+  - Keeping the css style changes even with a lower performance, it is still 95%.
+
+    ![Google Lighthouse - Desktop](assets/img/test/testTools/Lighthouse_second-testing.png)
+
+
   - ### **Mobile Performance Report** ###
 
     ![Google Lighthouse - Mobile](assets/img/test/testTools/Lighthouse_Mobile.png)
@@ -57,9 +63,37 @@ The following **validation services** and **linters** were used to check the val
   - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.
   - The following option were selected to prevent  errors and warning being returned owing to the strict nature of the checking:
 
+  - **JSHint Options**
+
     ![JSHint Options](assets/img/test/testTools/JSHint_Configure.png)
 
   - **game.js results**
+
+    ![JSHint Result](assets/img/test/testTools/JSHint_JS-code.png)
+
+    Final test of the added functions.
+
+    ```
+    let modal = document.getElementById("countDown");
+    setTimeout(function(){
+        modal.style.opacity = "0";   
+    }, 5500);
+
+    let countDown = 4;
+    let count = setInterval(function() {    
+        countDown = countDown - 1;
+
+        document.getElementById("countDownNr").innerHTML = countDown;
+
+        // If the count down is finished, write some text
+        if (countDown < 0) {
+            clearInterval(count);
+            document.getElementById("countDownNr").innerHTML = "Start";    
+        }
+    }, 1000);
+
+    ```
+
 
     ![JSHint Result](assets/img/test/testTools/JSHint_JS-code.png)
  

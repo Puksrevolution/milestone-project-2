@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 let modal = document.getElementById("countDown");
 setTimeout(function(){
     modal.style.opacity = "0";   
