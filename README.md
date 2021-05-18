@@ -5,16 +5,16 @@ Milestone Project 2
 By: [Marina Christen](mailto:puksbusinessworld@gmail.com), May 2021<br>
 This webpage is the second of four Milestone Projects which is a part of the Full Stack Web Development Program of [Code Institute](https://www.codeinstitute.net/).
 
+Live Project
+======
+[View the live project here]( https://puksrevolution.github.io/milestone-project-2/)
+
 Screenshot
 ======
 
 All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
 <img src="assets/img/screenshots/MS2.jpg">
-
-Live Project
-======
-[View the live project here]( https://puksrevolution.github.io/milestone-project-2/)
 
 ---
 # Table of contents
@@ -71,7 +71,7 @@ Live Project
 Project
 ======
 ### **Project description** ###
-The purpos of this project is to showcase the knowledge of HTML, CSS & JavaScript I gained
+The purpose of this project is to showcase the knowledge of HTML, CSS & JavaScript I gained
 so far in this course. The task is to  build an interactive front-end site. 
 The site should respond to the users' actions, allowing users to actively engage with data, alter the way the site
 displays the information to achieve their preferred goals.
@@ -242,18 +242,18 @@ JavaScript
 
 ### **JavaScript Documentation** ###
 
-JavaScript documentation with  screenshots can be found in a separate [JavaScript.md](JavaScript.md).
+JavaScript documentation with  screenshots can be found in a separate [DEVELOPER.md](md_files/DEVELOPER.md).
 
 [Back to contents](#contents)
 
 Testing
 ======
 
-Testing information can be found in a separate [testing.md](testing.md).
+Testing information can be found in a separate [testing.md](md_files/Testing.md).
 
 ### **Known Bugs** ###
 
-All information of bug and bugs fix can be found in a separate [testing.md](testing.md).
+All information of bug and bugs fix can be found in a separate [testing.md](md_files/Testing.md).
 
 [Back to contents](#contents)
 
