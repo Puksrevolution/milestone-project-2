@@ -83,7 +83,7 @@ when you need to wait for something....
 It also trains a person's reaction time, dexterity and endurance.
 The layout of the game is an Hommage to the classic arcade games.
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
 
 User Experience Design
 ======
@@ -128,7 +128,7 @@ User Experience Design
   - Solution:<br>
   A Modal appears when the user loos the game and it will show up a messag why the user loos and it shows the reached score of the user. 
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
 
 Design
 ======
@@ -164,7 +164,7 @@ A simple and good recognisable Favicon, created with [paint.net](https://www.get
 
 <img src="assets/img/wireframes/wireframes.jpg">
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
 
 Features
 ======
@@ -204,7 +204,7 @@ Responsive design on all devices with using css style code to give a simple, use
   - Different levels with more speed, two or three balls at the same time, a ball which will move randomly in all directions etc.
 
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
 
 Technologies
 ======
@@ -235,7 +235,7 @@ Technologies
 - [paint.net](https://www.getpaint.net/download.html)
   - A photo and images editor program.  ​
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
 
 JavaScript
 ======
@@ -244,18 +244,18 @@ JavaScript
 
 JavaScript documentation with  screenshots can be found in a separate [DEVELOPER.md](md_files/DEVELOPER.md).
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
 
 Testing
 ======
 
-Testing information can be found in a separate [testing.md](md_files/Testing.md).
+Testing information can be found in a separate [Testing.md](md_files/Testing.md).
 
 ### **Known Bugs** ###
 
-All information of bug and bugs fix can be found in a separate [testing.md](md_files/Testing.md).
+All information of bug and bugs fix can be found in a separate [Testing.md](md_files/Testing.md).
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
 
 Deployment
 ======
@@ -315,7 +315,7 @@ gh repo clone Puksrevolution/milestone-project-2
     
 You can find all the steps to follow according your chosen method in this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) on how to clone a reposistory.
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
 
 Credits
 ======
@@ -357,4 +357,4 @@ text-shadow:
 - Simon Vardy, Praveen and Michael Standen for their support and help.
 - Code Institute Course material.
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
