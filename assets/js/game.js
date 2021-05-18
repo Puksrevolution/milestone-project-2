@@ -31,7 +31,7 @@ class Renderer {
         let box = document.createElement("div");
         box.style.position = "absolute";
         box.style.top = "10px";
-        box.style.left = "40px";
+        box.style.left = "20%";
         box.style.width = "35px";
         box.style.height = "35px";
         box.style.backgroundColor = "rgb(255, 2, 99)";

@@ -99,6 +99,11 @@ text-decoration: none;
 /*PAGES*/
 /*Intro*/
 .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
     color: rgb(255, 2, 99);   
     text-align: center;   
 }
@@ -274,9 +279,19 @@ text-decoration: none;
 /** Breakpoints */
 /** 320px or smaller */
 @media (max-width: 20rem) {
+    .intro {    
+        height: 100vh;
+        margin-top: 4rem;
+    }
     .error__heading {
         font-size: 2rem;
     }    
+}
+/** 600px or smaller */
+@media (max-width: 37.5rem) {
+    .intro {    
+        height: 100vh;
+    }       
 }
 /** 800px or smaller */
 @media (max-width: 50rem) {
