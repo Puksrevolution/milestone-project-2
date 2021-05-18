@@ -1,4 +1,6 @@
 // "use strict";
+// Developer note: there are two time out functions which will be replaced with a better solution, but it work fine for now
+
 let modal = document.getElementById("countDown");
 setTimeout(function(){
     modal.style.opacity = "0";   
