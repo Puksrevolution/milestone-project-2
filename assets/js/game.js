@@ -28,19 +28,19 @@ class Renderer {
     
     // function to create the div/ball for the game
     setup() {
-        let box = document.createElement("div");
-        box.style.position = "absolute";
-        box.style.top = "10px";
-        box.style.left = "20%";
-        box.style.width = "35px";
-        box.style.height = "35px";
-        box.style.backgroundColor = "rgb(255, 2, 99)";
-        box.style.borderRadius = "1000px";
-        box.style.boxShadow = "0 0 3px rgb(0, 141, 160)";
+        let ball = document.createElement("div");
+        ball.style.position = "absolute";
+        ball.style.top = "10px";
+        ball.style.left = "20%";
+        ball.style.width = "35px";
+        ball.style.height = "35px";
+        ball.style.backgroundColor = "rgb(255, 2, 99)";
+        ball.style.borderRadius = "1000px";
+        ball.style.boxShadow = "0 0 3px rgb(0, 141, 160)";
         // adding div/ball to the game field 
-        this.element.appendChild(box);
+        this.element.appendChild(ball);
         // render gets accsess to box
-        this.box = box;
+        this.ball = ball;
     }
 
     // function to create the div/ball for the game
@@ -49,7 +49,7 @@ class Renderer {
     }
 }
 
-class Box {
+class Ball {
     constructor() {
         this.position = 0;
 
@@ -79,7 +79,7 @@ class Box {
 class Game {
     constructor(element) {
         this.renderer = new Renderer(element);
-        this.box = new Box();
+        this.ball = new Ball();
         this.element = element;
         this.isRunning = true;  // stops the position loop
         this.setup();
@@ -87,7 +87,7 @@ class Game {
 
     setup() {
         this.element.addEventListener("click", () => {
-            this.box.moveUp();
+            this.ball.moveUp();
         }, false);
     }
 
@@ -106,20 +106,20 @@ class Game {
         let score = 0;
         let timer = setInterval(() => {
             score++;
-            this.box.runLoop();
+            this.ball.runLoop();
             // contains the gamefield, top border
-            if (this.box.position < 0) {     
+            if (this.ball.position < 0) {     
                 this.isRunning = false;
                 clearInterval(timer);       // stops the interval loop   
                 this.alertBox("The ball touched the top border: " + score + " Points!");
             }
-            if (this.box.position + 35 > this.element.clientHeight) {
+            if (this.ball.position + 35 > this.element.clientHeight) {
                 this.isRunning = false;
                 clearInterval(timer);                
                 this.alertBox("The ball touched the bottom border: " + score + " Points!");
             }
             if (this.isRunning == true) {
-            this.renderer.render(this.box.position);
+            this.renderer.render(this.ball.position);
             }
         }, 25);
     }
