@@ -17,6 +17,7 @@ Milestone Project 2
   - [Testing the responsivity of different screen sizes](#testing-the-responsivity-of-different-screen-sizes)
   - [Browser testing undertaken on Laptop](#browser-testing-undertaken-on-laptop)
   - [Testing undertaken on smartphone device](#testing-undertaken-on-smartphone-device)
+  - [Evaluation](#evaluation)
 - [Bugs](#bugs)
     - [Bugs](#bugs)
     - [Bug fix](#bug-fix)
@@ -34,12 +35,12 @@ The following **validation services** and **linters** were used to check the val
 - [W3C Markup Validation](https://validator.w3.org/) 
   - This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
 
-  ![Result](assets/img/test/testTools/HTML_Validator.jpg)
+  ![Result](../assets/img/test/testTools/HTML_Validator.jpg)
 
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
   - This validator checks the validity of cascading style sheets (css) and (X)HTML documents with style sheets.
 
-  ![Result](assets/img/test/testTools/CSS_Validator.png)
+  ![Result](../assets/img/test/testTools/CSS_Validator.png)
 
 - [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
   - An open-source automated tool for improving webpages by running audits for performance, accessibility, progressive web apps, SEO etc.
@@ -47,17 +48,17 @@ The following **validation services** and **linters** were used to check the val
 
   - ### **Desktop Performance Report** ###
 
-    ![Google Lighthouse - Desktop](assets/img/test/testTools/Lighthouse_Desktop.png)
+    ![Google Lighthouse - Desktop](../assets/img/test/testTools/Lighthouse_Desktop.png)
 
   - Second testing after css style changes
   - Keeping the css style changes even with a lower performance, it is still 95%.
 
-    ![Google Lighthouse - Desktop](assets/img/test/testTools/Lighthouse_second-testing.png)
+    ![Google Lighthouse - Desktop](../assets/img/test/testTools/Lighthouse_second-testing.png)
 
 
   - ### **Mobile Performance Report** ###
 
-    ![Google Lighthouse - Mobile](assets/img/test/testTools/Lighthouse_Mobile.png)
+    ![Google Lighthouse - Mobile](../assets/img/test/testTools/Lighthouse_Mobile.png)
 
 - [JSHint (version 2.12.0)](https://jshint.com/)
   - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.
@@ -65,11 +66,11 @@ The following **validation services** and **linters** were used to check the val
 
   - **JSHint Options**
 
-    ![JSHint Options](assets/img/test/testTools/JSHint_Configure.png)
+    ![JSHint Options](../assets/img/test/testTools/JSHint_Configure.png)
 
   - **game.js results**
 
-    ![JSHint Result](assets/img/test/testTools/JSHint_JS-code.png)
+    ![JSHint Result](../assets/img/test/testTools/JSHint_JS-code.png)
 
     Final test of the added functions.
 
@@ -93,9 +94,7 @@ The following **validation services** and **linters** were used to check the val
     }, 1000);
 
     ```
-
-
-    ![JSHint Result](assets/img/test/testTools/JSHint_JS-code.png)
+    ![JSHint Result](../assets/img/test/testTools/JSHint_JS-code.png)
  
 
 Manual Testing
@@ -149,6 +148,13 @@ Manual Testing
 | Chrome | 81.0.4044.138 | Pass |
 | Firefox | 88.1.3 | Pass |
 
+### **Evaluation** ###
+
+User Stories:
+- The content is clear simple and good readable
+- All the buttons with href are working the right way 
+- The count down and the game are behave the way they should
+
 Bugs
 ======
 
@@ -156,19 +162,19 @@ Bugs
 
 - [W3C Markup Validation](https://validator.w3.org/) 
   
-  ![Bugs](assets/img/test/bugs/HTML_bugs.jpg)
+  ![Bugs](../assets/img/test/bugs/HTML_bugs.jpg)
 
 - [W3C CSS validation](https://jigsaw.w3.org/css-bugs/)
   
-  ![Bugs](assets/img/test/bugs/CSS_bugs.jpg)
+  ![Bugs](../assets/img/test/bugs/CSS_bugs.jpg)
 
 - [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)   
 
-    ![Bugs](assets/img/test/bugs/Lighthouse_bugs.jpg)
+    ![Bugs](../assets/img/test/bugs/Lighthouse_bugs.jpg)
 
 - [JSHint (version 2.12.0)](https://jshint.com/)   
 
-    ![Bugs](assets/img/test/bugs/JSHint_bugs.jpg)    
+    ![Bugs](../assets/img/test/bugs/JSHint_bugs.jpg)    
 
 ## **Bug fix** ##
 
