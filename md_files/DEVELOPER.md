@@ -139,4 +139,4 @@ Step Nine
 
 [Screenshots of the steps](https://github.com/Puksrevolution/milestone-project-2/tree/master/assets/img/screenshots/jsDocu/9_countDown)
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)

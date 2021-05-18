@@ -199,4 +199,4 @@ Bugs
     - to large title and no margin after the quit button
     - created media querie till 320px, with a headign setting of 2rem font-size and a margin-bottom for the button of 2rem.
 
-[Back to contents](#contents)
+[Back to Table of contents](#table-of-contents)
