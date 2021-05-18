@@ -45,7 +45,7 @@ class Renderer {
 
     // function to create the div/ball for the game
     render(position) {        
-        this.box.style.top = position + "px";
+        this.ball.style.top = position + "px";
     }
 }
 
